@@ -1,0 +1,24 @@
+<div class="encryption-challenge">
+    <h3>Decrypt This Message:</h3>
+    <div class="ciphertext">
+        <p>GUR CNFFJBEQ VF "SECURITY"</p>
+    </div>
+    <div class="hint">
+        <p>This message uses ROT13 cipher (rotate each letter 13 places in the alphabet)</p>
+        <p>A ↔ N, B ↔ O, C ↔ P, etc.</p>
+    </div>
+    <div class="tools">
+        <button onclick="revealHint()">Show Another Hint</button>
+        <div id="extra-hint" style="display:none;">
+            <p>What does "GUR" decrypt to? Try the first word first.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+function reveaHint() {
+    document.getElementById('extra-hint').style.display = 'block';
+}
+</script>
+
+<!-- Answer key: THE PASSWORD IS "SECURITY" -->
