@@ -82,9 +82,9 @@ An interactive cybersecurity-themed escape room that can be run virtually (web-b
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Key Features
-1.  Dual Implementation: Works as both virtual (web-based) and physical escape room
-2.  Educational Puzzles: Teaches real cybersecurity concepts through gameplay
-3.  Complete Package: Includes all necessary files and setup instructions
-4.  Flexible Difficulty: Can be adapted for different age groups/skill levels
-5.  Professional Design: Clean interface with timer and feedback system
-6.  Comprehensive Documentation: Detailed README for both versions
+1.  **Dual Implementation:** Works as both virtual (web-based) and physical escape room
+2.  **Educational Puzzles:** Teaches real cybersecurity concepts through gameplay
+3.  **Complete Package:** Includes all necessary files and setup instructions
+4.  **Flexible Difficulty:** Can be adapted for different age groups/skill levels
+5.  **Professional Design:** Clean interface with timer and feedback system
+6.  **Comprehensive Documentation:** Detailed README for both versions
