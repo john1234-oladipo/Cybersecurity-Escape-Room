@@ -1,0 +1,33 @@
+<div class="network-challenge">
+    <h3>Analyze This Network Scan:</h3>
+    <pre>
+Nmap 7.92 scan report for 192.168.1.105
+Host is up (0.045s latency).
+
+PORT     STATE  SERVICE       VERSION
+21/tcp   open   ftp           vsftpd 2.3.4
+22/tcp   open   ssh           OpenSSH 7.9p1 (protocol 2.0)
+23/tcp   closed telnet
+80/tcp   open   http          Apache httpd 2.4.38
+3389/tcp open   ms-wbt-server Microsoft Terminal Services
+8080/tcp open   http-proxy    Squid http proxy 4.6
+
+Service detection performed. Report errors to https://nmap.org/submit/
+    </pre>
+    
+    <div class="question">
+        <p>Identify 3 security vulnerabilities in this scan:</p>
+        <p>Format: "service:version,service:version,port"</p>
+    </div>
+    
+    <div class="hint">
+        <p>Look for:</p>
+        <ul>
+            <li>Outdated software with known exploits</li>
+            <li>Unnecessary open ports</li>
+            <li>Services that shouldn't be exposed</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Answer key: ftp:2.3.4,ssh:7.9p1,3389 -->
