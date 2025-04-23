@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSecurity Escape Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CyberSecurity Escape Room</h1>
+            <p class="subtitle">Can you solve the puzzles before time runs out?</p>
+        </header>
+        
+        <div id="timer">30:00</div>
+        
+        <div class="game-area">
+            <div id="intro-screen">
+                <h2>Welcome Agent!</h2>
+                <p>A hacker has infiltrated our systems. You have 30 minutes to complete all cybersecurity challenges to prevent the data breach.</p>
+                <button id="start-btn" class="btn">Accept Mission</button>
+            </div>
+            
+            <div id="puzzle-container" class="hidden">
+                <h2 id="puzzle-title">Puzzle Title</h2>
+                <div id="puzzle-content"></div>
+                <div id="puzzle-feedback"></div>
+                <input type="text" id="puzzle-answer" placeholder="Enter solution...">
+                <button id="submit-answer" class="btn">Submit</button>
+            </div>
+            
+            <div id="success-screen" class="hidden">
+                <h2>Mission Accomplished!</h2>
+                <p>You've successfully secured the systems with a time of <span id="final-time"></span>!</p>
+                <div id="completion-code">Your completion code: <strong>CYBER-<span id="code"></span></strong></div>
+                <button id="restart-btn" class="btn">Play Again</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
